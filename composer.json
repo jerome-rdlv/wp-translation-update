@@ -1,0 +1,14 @@
+{
+    "name": "jerome-rdlv/wp-translation-update",
+    "description": "CLI utility for WordPress to generate POT from source, update PO and compile MO",
+    "authors": [
+        {
+            "name": "Jérôme Mulsant",
+            "email": "jerome@rue-de-la-vieille.fr"
+        }
+    ],
+    "bin": [
+        "wp-translation-update",
+        "wtu"
+    ]
+}
