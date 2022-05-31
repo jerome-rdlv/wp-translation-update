@@ -3,7 +3,7 @@
 set -e
 
 usage()  {
-    echo "Usage: $(basename $0) [-d DOMAIN] [-o OUTPUT] [-t] SOURCE_DIR"
+    echo "Usage: $(basename "$0") [-d DOMAIN] [-o OUTPUT] [-t] SOURCE_DIR"
     echo
     echo "  -d  The text domain to use. Defaults to source directory basename"
     echo "  -o  The output directory. Defaults to SOURCE_DIR/languages"
